@@ -47,6 +47,12 @@ gem 'hirb', '~> 0.7.3'
 # Use Device for user authentication
 gem 'devise', '~> 4.3'
 
+#Use Stripe for payment processing
+gem 'stripe', '3.9.1'
+
+# User Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
